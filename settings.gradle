@@ -1,0 +1,32 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven{url "https://maven.google.com"}
+        //maven{url "https://mapbox.bintray.com/mapbox"}
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven{
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication{
+                basic(BasicAuthentication)
+            }
+            credentials{
+                username= "mapbox"
+                password= access_token
+            }
+        }
+    }
+
+}
+rootProject.name = "MappedOne"
+include ':app'
+

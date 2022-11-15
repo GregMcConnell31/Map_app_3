@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476475975124",
+    "project_id": "mappedone-3cca1",
+    "storage_bucket": "mappedone-3cca1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476475975124:android:eb0b233d2c532631256241",
+        "android_client_info": {
+          "package_name": "com.example.shakil.androidmapboxexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476475975124-os7hkk15ghv33q8etfcfpjsk4c3p28qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGCPbsSCxAAyIfDV1EsZuxOZI9ZfEWzvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476475975124-os7hkk15ghv33q8etfcfpjsk4c3p28qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
